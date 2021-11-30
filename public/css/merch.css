@@ -1,0 +1,208 @@
+a {
+  color: #fd0d0d;
+  text-decoration: none;
+  /*font-weight: bold;*/
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.merchsecttitle {
+  margin-bottom: 0.25rem !important;
+  margin-left: 0.98rem;
+  font-size: 20px;
+  font-weight: 500;
+  color: #3f3f3f;
+}
+
+.loader-state {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+  word-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+  background-clip: border-box;
+  border: 1px solid rgba(48, 48, 49, 0.27);
+  border-radius: 8px;
+  box-shadow: rgba(196, 196, 196, 0.77) 0px 0px 6px;
+  margin: 9px;
+  min-height: 250px;
+}
+
+.card-body {
+  /* flex: 1 1 auto; */
+  padding: 3px 7px 3px 7px; /* 1rem 1rem; */
+}
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: 8px; /* calc(0.25rem - 1px); */
+  border-top-right-radius: 8px; /* calc(0.25rem - 1px); */
+}
+
+.card > .list-group:last-child {
+  border-bottom-width: 0;
+  border-bottom-right-radius: 8px; /* calc(0.25rem - 1px); */
+  border-bottom-left-radius: 8px; /* calc(0.25rem - 1px); */
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+  line-height: 21px;
+  font-size: 15.5px;
+}
+
+.card-header {
+  padding: 1px 9px;
+  margin-bottom: 0;
+  background-color: #ffcd0ac2; /*#ffc20ac2;*/
+  border-bottom: 1px solid rgba(255, 216, 100, 0.27);
+  font-size: 13.5px;
+  position: absolute;
+  z-index: 1;
+  width: 140px;
+}
+
+.card-header:first-child {
+  border-radius: 8px 8px /*calc(.25rem - 1px)*/ 0 0;
+}
+
+/* 
+.card-img, .card-img-top, .card-img-bottom {
+  width: 100%;
+}
+ */
+/* ----------CARD GIFT REWARD--------*/
+.cardgift {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 142px;
+  max-width: 142px;
+  word-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+  background-clip: border-box;
+  /*    border: 1px solid rgb(164, 124, 4);*/
+  border-radius: 8px;
+  box-shadow: rgba(227, 136, 40, 0.77) 0px 0px 7px;
+  margin: 9px;
+  max-height: 230px;
+  /*    min-height: 200px;*/
+}
+
+/* ----------CARD HORZ--------*/
+.cardhorz-header {
+  padding: 1px 9px;
+  margin-bottom: 0;
+  background-color: #ffcd0ac2; /*#ffc20ac2;*/
+  border-bottom: 1px solid rgba(255, 216, 100, 0.27);
+  font-size: 13.5px;
+  position: absolute;
+  z-index: 1;
+  width: 140px;
+}
+
+.cardhorz-header:first-child {
+  border-radius: 8px 0 0 0;
+}
+
+.cardhorz {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  max-width: 350px;
+  word-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  border-radius: 8px; /* 0.25rem; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 9px;
+  max-height: 130px;
+  min-height: 130px;
+}
+
+.cardhorz-img-leftside {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.cardhorz-body {
+  /*  flex: 1 1 auto;*/
+  padding: 5px 0px; /*.5rem .5rem;*/
+  line-height: 20px;
+  font-size: 15.5px;
+  word-wrap: break-word;
+  /*  transform:translateY(-10px);*/
+}
+
+/* .cardhorz-text:last-child {
+  margin-bottom: 0;
+  line-height: 21px;
+  font-size: 15.5px;
+} 
+ */
+
+/***********************************************/
+
+/* 
+
+.card-link {
+  color: #E00000;
+  text-decoration: none;
+  font-weight: 500;
+font-size: 16px;
+} */
+
+/********************************************************/
+
+.merchstyle-personalizedoffers {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.7rem;
+  color: #3f3f3f;
+  text-decoration: none;
+  background-color: #fff7eb;
+  /* border: 0.5px solid rgb(40 40 40 / 90%);  */
+}
+
+/**********/
+
+.merchstyle-featuredoffers {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.7rem;
+  color: #3f3f3f;
+  text-decoration: none;
+  /* background-color: #fff7eb; */
+  border: 0.5px solid rgb(40 40 40 / 90%); /*rgba(0, 0, 0, 0.125);*/
+}
+
+/**********/
+
+.merchstyle-storetopsellers {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.7rem;
+  color: #3f3f3f;
+  text-decoration: none;
+  /* background-color: #fff7eb; */
+  border: 0.5px solid rgb(40 40 40 / 90%); /*rgba(0, 0, 0, 0.125);*/
+}
+
+/********************************************************/

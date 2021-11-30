@@ -1,0 +1,57 @@
+.list-category-one-personalized {
+/* position: relative;
+  display: block;*/
+  padding: 0.5rem 0.7rem;
+  background-color: #fff9eb; /*#fff7eb;*/ 
+  border-radius: 12px;
+  border: 0.5px solid rgb(255, 232, 179); 
+/*  border: 0.5px solid rgb(40 40 40 / 19%);*/
+}
+
+
+.list-category-two-default {
+/* position: relative;
+  display: block;*/
+  padding: 0.5rem 0.7rem;
+  background-color: #ffffff; 
+  border-radius: 12px;
+/* border: 0.5px solid rgb(40 40 40 / 19%);*/
+}
+
+
+
+
+.card-personalizedoffers {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: 1px solid rgba(100, 100, 100, 0.58); 
+    border-radius: 8px;
+    box-shadow: rgb(189, 170, 133) 0px 0px 6px;
+    margin: 9px;
+    min-height: 250px;
+}
+
+
+.cardhorz-personalizedoffers {
+position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  max-width: 350px;
+  word-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+  background-clip: border-box;
+    border: 1px solid rgba(100, 100, 100, 0.58); 
+  border-radius: 8px; /* 0.25rem; */
+    box-shadow: rgb(189, 170, 133) 0px 0px 6px;
+  margin: 9px;
+  max-height: 130px;
+  min-height: 130px;
+}
+
+
